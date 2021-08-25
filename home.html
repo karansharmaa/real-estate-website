@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brian Griffin Real Estate</title>
+        <link rel = "stylesheet" href = "home.css">
+        <link rel = "icon" href = "images/BG.ico">
+        
+    </head>
+    <body style = "background-color: rgba(255,255,0,0.09);">
+        <div id = "headder">
+            <div id = "header_image">
+                <a href = "home.html">
+                    <img class = "headerImg" src = "images/BGG.png" alt = "headerPic">
+                </a>
+                <!--<img src = "https://static.wikia.nocookie.net/familyguy/images/b/b0/Bacx21_611_03a-0104_hires2.jpg/revision/latest?cb=20141018125116" width = "13.2%" style = "float: right;"> doesn't look good-->
+            </div>
+           <nav>
+                <ul>
+                    <li><a href = "home.html">Home</a></li>
+                    <li><a href = "neighbourhoods.html">Neighbourhoods</a></li>
+                    <li><a href = "testimonials.html">Testimonials</a></li>
+                    <li><a href = "reachout.html">Home Evaluation</a></li>
+                    <li><button type = "button" id = "contactUs" onclick = "contactUs()">Contact Us</button></li>
+                </ul>
+            </nav>
+            <div id = "clock">
+                
+            </div>
+            
+        </div>
+        <div id = "img1">
+            <h1>Your Local Real Estate Agent</h1>
+        </div>
+        <main>
+            <h1 style = "text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkblue">
+                Welcome
+            </h1>
+            <div id = "contact2" style = "text-align: center;">
+                <h3 style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; color: darkblue;">
+                    Allow me to assist you in your buying/selling Real Estate Needs</h3>
+                <button id = "contactUs2" type = "button" onclick = "contactUs()" style = "cursor: pointer;">
+                    Contact Us</button>
+            </div>
+            
+            <div id = "intro">
+                <p style = "text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+                    List with <u><b>Brian Griffin</b></u>.
+                <br>Operating a Personal Real Estate Corporation, I have been serving the beautiful lower mainland community for over 2 decades.
+                    <br>Not only do I represent the lower mainland, I am licenced by various boards in BC -- meaning, if your
+                    dream property sits on the beautiful banks of Lake Okanagan, you know where to find <a style = "cursor: pointer;" onclick = "contactUs()"><u>me</u></a>.<br>
+                    You can also read some of the very generous testimonials left by my previous clients <a href = "testimonials.html" style = "cursor: pointer;"><u>here</u></a>.                
+                </p>
+            </div>
+            <div id = "featured">
+                <h1 style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; color: darkblue">
+                Featured listings of the week:
+                </h1>
+                <img src = "images/ss1.png" alt = "ss1" class = "ss1"
+                onmouseover = "this.src = 'images/ss2.png'" onmouseout = "this.src = 'images/ss1.png'">
+                <img src = "images/ss3.png" style = "display: inline-block;" alt = "ss3" class = "ss2"
+                onmouseover = "this.src = 'images/ss4.png'" onmouseout = "this.src = 'images/ss3.png'">
+                <img src = "images/ss5.png" alt = "ss5" class = "ss3"
+                onmouseover = "this.src = 'images/ss6.png'" onmouseout = "this.src = 'images/ss5.png'">
+
+            </div>
+            <h1 style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:darkblue; text-align: center;">
+                About Me
+            </h1>
+
+            <div id = "aboutme">                
+                <img class = "abtme" src = "https://static.wikia.nocookie.net/familyguy/images/b/b0/Bacx21_611_03a-0104_hires2.jpg/revision/latest?cb=20141018125116" alt = " "  style = "text-align: left; margin-left: 50px; display: inline;">
+
+                <p style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: -15px; display: inline-block; font-size: 18px; text-align: center;">
+                I am Brian Griffin. Born and raised in Vancouver, BC. I started my Real Estate journey orignally to work with my father (who now lives <br>
+                in the United States) at the age of 20. I graduated Magna Cum Laude from Sauder School of Business at UBC, class of '98. <br>
+                Now, I dedicate my life to helping find my clients the best home. I'm also a part of various Real Estate Boards in BC, so I am <br>
+                more than willing to help you out find your dream home in a different locality if need be. Looking forward to enriching more lives! <br><br>
+                Phone: 604-123-4567<br><br> Email: RE@briangriffin.ca
+                </p>
+
+            </div>
+
+        </main>
+        <script>
+            var contactUs = function()
+            {
+                alert("I can be reached any time between 9am-9pm at 604-123-4567. I can also be reached at RE@briangriffin.ca. Thank you!"); 
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=RE@briangriffin.ca")
+            }
+        </script>
+        <footer>Copyright&copy; Karan Sharma 300283540 -- 2021</footer>
+
+    </body>
+</html>

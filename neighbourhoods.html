@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "En">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brian Griffin Real Estate</title>
+        <link rel = "stylesheet" href = "neighbourhoods.css">
+        <link rel = "icon" href = "images/BG.ico">
+        
+    </head>
+    <body style = "background-color:rgba(255,255,0,0.09);">
+        
+        <div id = "headder">
+            <div id = "headerImg">
+                <a href = "home.html">
+                    <img class = "headerImg" src = "images/BGG.png" alt = "headerPic" >
+                </a>
+
+            </div>
+            <div class = "navi">
+                <nav>
+                    <ul>
+                        <li><a href = "home.html">Home</a></li>
+                        <li><a href = "neighbourhoods.html">Neighbourhoods</a></li>
+                        <li><a href = "testimonials.html">Testimonials</a></li>
+                        <li><a href = "reachout.html">Home Evaluation</a></li>
+                        <li> <button type = "button" id = "contactUs" onclick = "contactUs()">Contact Us</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id = "img1">
+           <h1>Neighbourhoods</h1> 
+        </div>
+        <main>
+            <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; color: darkblue;">
+            Our Main Focus:
+            </h2>
+            <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 18px; text-align: center;">
+            Our main focus is on the lower mainland area in BC. All of our local cities fall in different Real Estate<br>
+            boards. But lucky for you and I, I am employed by all of the local boards, which allows me to serve you in a way<br>
+            that matches your best interests. <br>
+            Please click on any of the following images to learn more.<br> ↓<br>↓
+            </p>
+            <div id = "neigh1">
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; text-align: center;">
+                Vancouver<br>
+                <a href = "vancouver.html"><img class = "cities" src = "https://images.dailyhive.com/20181212163539/Vancouver-Skyline6.jpg"
+                    onmouseover= "bigImg(this)" onmouseout="normalImg(this)" alt = " " ></a>
+                </p>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; text-align: center;">
+                    Burnaby<br>
+                <a href = "burnaby.html"><img class = "cities" src = "https://img.ic-static.net/rxbBUyEThuy1fzy8yScw4If7qrQ=/0x0:770x500/MET/metropolis-at-metrotown-ext-1.jpg" 
+                    onmouseover= "bigImg(this)" onmouseout="normalImg(this)" alt = " "></a>
+                </p>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; text-align: center;">
+                    Coquitlam<br>
+                <a href = "coquitlam.html"><img class = "cities" src = "https://images.glaciermedia.ca/polopoly_fs/1.24047039.1578349359!/fileImage/httpImage/image.jpg_gen/derivatives/original_size/coquitlam-pinetree-way-main-image.jpg" 
+                    onmouseover= "bigImg(this)" onmouseout="normalImg(this)" alt = " "></a>
+                </p>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; text-align: center;">
+                    Surrey<br>
+                <a href = "surrey.html"><img class = "cities" src = "https://www.urbanvalleytransport.com/wp-content/uploads/2020/09/urban-valley-transport-surrey-1024x546.jpg" 
+                    onmouseover= "bigImg(this)" onmouseout="normalImg(this)" alt = " "></a>
+                </p>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; text-align: center;">
+                    New Westminister<br>
+                <a href = "newwest.html"><img class = "cities" src = "https://faithwilsongroup.com/wp-content/uploads/sites/10/2016/12/new_west-502668756_b_big.jpg" 
+                    onmouseover= "bigImg(this)" onmouseout="normalImg(this)" alt = " "></a>
+                </p>
+            </div>
+        </main>
+        <script src = "neighbourhoods.js"></script>
+        <script>
+            var contactUs = function()
+            {
+                alert("I can be reached any time between 9am-9pm at 604-123-4567. I can also be reached at RE@briangriffin.ca. Thank you!"); 
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=RE@briangriffin.ca")
+            }
+        </script>
+        <footer>Copyright&copy; Karan Sharma 300283540 -- 2021</footer>
+
+    </body>
+    </html>

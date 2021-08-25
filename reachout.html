@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brian Griffin Real Estate</title>
+        <link rel = "stylesheet" href = "reachout.css">
+        <link rel = "icon" href = "images/BG.ico">
+        
+    </head>
+    <body style = "background-color: rgba(255, 255, 0, 0.1);">
+        <div id = "headder">
+            <div id = "header_image">
+                <a href = "home.html">
+                    <img class = "headerImg" src = "images/BGG.png" alt = "headerPic">
+                </a>
+
+            </div>
+            <div class = "navi">
+                <nav>
+                    <ul>
+                        <li><a href = "home.html">Home</a></li>
+                        <li><a href = "neighbourhoods.html">Neighbourhoods</a></li>
+                        <li><a href = "testimonials.html">Testimonials</a></li>
+                        <li><a href = "reachout.html">Home Evaluation</a></li>
+                        <li> <button type = "button" id = "contactUs" onclick = "contactUs()">Contact Us</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id = "img1">
+            <h1>Home Evaluation</h1>
+        </div>
+
+        <h2 style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; color: darkblue;">
+        I provide free home-value consulations. 
+        </h2>
+        <p style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; font-size: 18px;">
+        Please provide whatever information you are comfortable sharing and me or my assistant will contact you as soon as 
+        possible with a full price evaluation for your property. 
+        </p>
+        <div id = "formContainer">
+            <form id="myForm1">
+                <fieldset>
+                <legend>What is my home worth?</legend>
+    
+                <div class="form-input">
+                    <label for= "title">Title</label>
+                    <input list="titles" name="title" id="title">
+                        <datalist id="titles">
+                            <option value="Mr">
+                            <option value="Mrs">
+                            <option value="Ms">
+                        </datalist>
+                </div>
+    
+                <div class="form-input">
+                    <label for="Name">Name*</label>
+                    <input type="text" name="Name" id="Name" size="20" placeholder="First and Last Name"/>
+                </div>
+    
+                <div class="form-input">
+                    <label for="Address">Street Address</label>
+                    <input type="text" name="Address" id="Address" size="20" />
+                </div>
+    
+                <div class="form-input">
+                    <label for="City">City</label>
+                    <input type="text" name="City" id="City" size="20" />
+                </div>
+    
+                <div class="form-input">
+                    <label for="Province">Province</label>
+                    <input list="provinces" name="Province" id="Province" size="20"/>
+                    <datalist id = "provinces">
+                            <option value="British Columbia">
+                            <option value="Alberta">
+                            <option value="Sasketchwan">
+                            <option value="Manitoba">
+                            <option value="Ontario">
+                            <option value="Quebec">
+                            <option value="New Brunswick">
+                            <option value = "Nova Scotia">
+                            <option value="Prince Edward Island">
+                            <option value="Newfoundland and Labrador">
+                            <option value="Yukon">
+                            <option value="Northwestern Territories">
+                            <option value="Inuit">
+                    </datalist>
+                </div>
+    
+                <div class="form-input">
+                    <label for="PostalCode">Postal Code</label>
+                    <input type="text" name="PostalCode" id="PostalCode" size="20" placeholder="X0X 0X0">
+                </div>
+    
+                <div class="form-input">
+                    <label for="PhoneNumber">Phone Number*</label>
+                    <input type="text" name="PhoneNumber" id="PhoneNumber" size="20" placeholder="(000)-000-0000">
+                </div>
+    
+                <div class="form-input">
+                    <label for="Email">E-mail*</label>
+                    <input type="text" name="Email" id="Email" size="20" />
+                </div>
+                <div class = "form-input">
+                    <label for = "arrayElement">If you're buying, which locality<br> are you interested in?</label>
+                    <input type = "text" name = "arrayElement" id = "arrayElement">
+                </div>
+                <div id = "buttons" style = "text-align: right;">
+                    <input type = "button" id = "button1" value = "Add" onclick = "addElem()" >
+                    <input type = 'button' id = 'button2' value = "Display" onclick = 'displayElem()'> 
+                </div>
+                <p id = "interestedIn" style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">
+                You are interested in: 
+                </p>
+                <div class = "submitt">
+                    <button type = "button" id = "submit1" value = "Submit" onclick = "submitForm()">Submit</button>
+                </div>
+                </fieldset>
+            </form>
+        </div>
+        <h2 style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkblue; text-align: center; padding-top: 50px;">
+        Mortgage Calculator
+        </h2>
+        <p style = "font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 18px; text-align: center;">
+        Are you interested in knowing what your potential mortgage payment would be if you owned a home?<br> Please fill out the form below. 
+        </p>
+        <div id = "formContainer2">
+            <form id="myForm2">
+                <fieldset>
+                <legend>Mortgage Calculator</legend>
+
+                <div class="form-input">
+                    <label for= "principal">Price of Anticipated Home:</label>
+                    <input type = "text" id="principal">
+                        
+                </div>
+
+                <div class="form-input">
+                    <label for = "termOfLoan">Desired Amortization Period:</label>
+                    <input list = "amort" name="amort" id="termOfLoan">
+                    <datalist id = "amort">
+                        <option value = "5">Years</option>
+                        <option value = "10">Years</option>
+                        <option value = "15">Years </option>
+                        <option value = "20">Years</option>
+                        <option value = "25">Years</option>
+                        <option value = "30">Years</option>
+                    </datalist>
+                </div>
+
+                <div class="form-input">
+                    <label for="annualInterestRate">Annual Interest Rate(APR)(1.0 - 4.0): </label>
+                    <input type="text" name="annualInterestRate" id="annualInterestRate"/>
+                </div>
+
+                <div class="form-input">
+                    <label for="annualIncome">Estimated Annual Income: </label>
+                    <input type="text" name="annualIncome" id="annualIncome"/>
+                </div>
+
+                <div class="form-input">
+                    <label for = "payment">Your Estimated Monthly Payment: </label>
+                    <input type ="text" name="monthlyPayment" id="payment" disabled/>
+                </div>
+                <div class = "form-input">
+                    <label for = "GDSR">Your Gross Debt Service Ratio: </label>
+                    <input type = "text" name = "GDSR" id = "GDSR" disabled>
+                </div>
+                <div class = "submitt">
+                    <button type = "button" id = "submit" value = "Submit" onclick = "calculatePayment()">Submit</button>
+                </div>
+                </fieldset>
+            </form>
+    </div>
+        <script src = "reachout.js"></script>
+        <script>
+            var contactUs = function()
+            {
+                alert("I can be reached any time between 9am-9pm at 604-123-4567. I can also be reached at RE@briangriffin.ca. Thank you!"); 
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=RE@briangriffin.ca")
+            }
+        </script>
+        <footer>Copyright&copy; Karan Sharma 300283540 -- 2021</footer>
+
+    </body>
+    </html>

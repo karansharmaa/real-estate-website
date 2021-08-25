@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "En">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brian Griffin Real Estate</title>
+        <link rel = "stylesheet" href = "neighbourhoods.css">
+        <link rel = "icon" href = "images/BG.ico">
+       
+    </head>
+    <body style = "background-color: rgba(255,255,0,0.09);">
+        <div id = "headder">
+            <div id = "header_image">
+                <a href = "home.html">
+                    <img class = "headerImg" src = "images/BGG.png" alt = "headerPic" >
+                </a>
+            </div>
+            <div class = "navi">
+                <nav>
+                    <ul>
+                        <li><a href = "home.html">Home</a></li>
+                        <li><a href = "neighbourhoods.html">Neighbourhoods</a></li>
+                        <li><a href = "testimonials.html">Testimonials</a></li>
+                        <li><a href = "reachout.html">Home Evaluation</a></li>
+                        <li> <button type = "button" id = "contactUs" onclick = "contactUs()">Contact Us</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id = "img1">
+            <h1 style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            Neighbourhoods
+            </h1>
+        </div>
+        <div id = "division" style = "text-align: center;">
+            <img class = "mainImg" alt = " " src = "https://d3n8a8pro7vhmx.cloudfront.net/livingwageforfamilies/pages/334/attachments/original/1569963311/Burnaby-BC.jpg?1569963311">
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 18px;">
+                Home to a diverse urban centre with a mix of residential and commercial properties, Brian Griffin provides<br>
+                    real estate services in Burnaby, with sales in luxury buildings, condos, and townhomes like the Panacasa Concrete Condos<br>
+                    and Townhouse, North Parc Condos, Vanland, Modello in Metrotown, Wilson Avenue, Metro Two Condos, Moda Condos, The Met, <br>
+                    Burnaby by Cressey, Vibe Condos, Britton South Burnaby, The Sevens on Royal Oak, Sequel on Royal Oak, Eden at Edmonds, <br>
+                    Portraits Condos, Reflections in Burnaby, Casa D’oro Townhomes, RedBrick, Storybrook Condos, Queensborough Townhomes, and more.
+
+
+            </p><br><br>
+        </div>
+        <script src = "home.js"></script>
+        <script>
+            var contactUs = function()
+            {
+                alert("I can be reached any time between 9am-9pm at 604-123-4567. I can also be reached at RE@briangriffin.ca. Thank you!"); 
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=RE@briangriffin.ca")
+            }
+        </script>
+        <footer>Copyright&copy; Karan Sharma 300283540 -- 2021</footer>
+
+    </body>
+    </html>

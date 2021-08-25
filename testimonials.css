@@ -1,0 +1,57 @@
+a{text-decoration: none;}
+li :hover{color: white; cursor: pointer;}
+#headder
+{
+    margin: -10px; 
+    background-color: lavender;
+    border-bottom: 0.01px solid black;
+}
+#contactUs
+{   
+    border-radius: 100px;
+    background-color: lightblue; 
+    font-size: 25px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contactUs2
+{   
+    border-radius: 50px;
+    background-color: lightskyblue; 
+    font-size: 18px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul
+{
+    list-style-type: none;
+    text-align: center;   
+}
+li
+{
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 25px; 
+    padding-right: 10px;
+    color: rgb(59, 177, 179); 
+}
+#img1
+{
+    margin: 10px -10px 0 -10px;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5%;
+    background-image:url("https://wallpapercave.com/wp/wp2406709.jpg");
+    background-position: 0 -250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+footer
+{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(183, 224, 249);
+}
+.testy{width:75%;}
+.headerImg{width: 25%;}

@@ -1,0 +1,116 @@
+a{text-decoration: none;}
+#img1
+{
+    margin: 10px -10px 0 -10px;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5%;
+    background-image:url("https://cdn.homedit.com/wp-content/uploads/2014/08/Thoughtful-Edging-front-yard.jpg");
+    background-position: 0 -250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+li :hover{color: white; cursor: pointer;}
+#headder
+{
+    margin: -10px;
+    background-color: lavender;
+    border-bottom: 0.01px solid black;
+}
+#contactUs
+{   
+    border-radius: 100px;
+    background-color: lightblue; 
+    font-size: 25px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul
+{
+    list-style-type: none;
+    text-align: center;   
+}
+li
+{
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 25px; 
+    padding-right: 10px;
+    color: rgb(59, 177, 179); 
+}
+#formContainer
+{
+    margin-left: 35%;
+}
+#formContainer2
+{
+    margin-left: 35%;
+}
+.form-radio
+{
+
+    margin-right: 25px;
+}
+fieldset
+{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#myForm1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block; 
+    width: 45%; 
+    position:inherit;
+    border-radius: 100px;
+}
+#myForm2
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block; 
+    width: 45%; 
+    position:inherit;
+    border-radius: 100px;
+}
+.form-input
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form-input input 
+{
+    width: 40%; 
+    height: 1.35rem; 
+}
+.dineout input 
+{
+    width: 10%; 
+}
+.options
+{
+    width: 50%; 
+    margin: 0.5rem; 
+}
+.submitt{margin-left:45%; margin-top: 40px;}
+legend
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    text-align: center;
+    margin-left: 5px;
+}
+footer
+{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(183, 224, 249);
+}
+.headerImg{ width : 25%;}
